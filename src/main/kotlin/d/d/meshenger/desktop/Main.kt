@@ -591,9 +591,9 @@ fun AboutTabScreen() {
         Card(colors = CardDefaults.cardColors(containerColor = Color(0xFF1E293B))) {
             Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 Text("❤️ YARARLANILAN PROJELER VE TEŞEKKÜRLER / REFERENCES & THANKS", color = Color.White, fontWeight = FontWeight.Bold, fontSize = 14.sp)
-                Text("• Enkaz Dinleme Uygulaması (Gürültü filtreleme & ses yükseltme): https://github.com/mserman90/enkazdinlemeuygulamasi", color = Color(0xFF818CF8), fontSize = 12.sp)
-                Text("• Meshenger Android Projesi (P2P WebRTC haberleşme altyapısı): https://github.com/mserman90/meshenger-android", color = Color(0xFF818CF8), fontSize = 12.sp)
-                Text("• qaul.net (Şebekesiz Mesh İletişim Konsepti): https://github.com/mserman90/qaul.net", color = Color(0xFF818CF8), fontSize = 12.sp)
+                Text("• Enkaz Dinleme Uygulaması (Gürültü filtreleme & ses yükseltme): https://github.com/ozansarier/enkazdinlemeuygulamasi", color = Color(0xFF818CF8), fontSize = 12.sp)
+                Text("• Orijinal Meshenger Android Projesi (P2P WebRTC haberleşme altyapısı): https://github.com/meshenger-app/meshenger-android", color = Color(0xFF818CF8), fontSize = 12.sp)
+                Text("• qaul.net (Şebekesiz Mesh İletişim Konsepti): https://github.com/qaul/qaul.net", color = Color(0xFF818CF8), fontSize = 12.sp)
                 Text("• WebRTC Project (Gerçek zamanlı P2P medya akış motoru): https://webrtc.org", color = Color(0xFF818CF8), fontSize = 12.sp)
                 Text("• Libsodium / LazySodium (Kriptografik güvenlik & E2E şifreleme): https://libsodium.org", color = Color(0xFF818CF8), fontSize = 12.sp)
                 Text("• ISO 22324 Standartları (Acil durum yönetim renk rehberi): https://www.iso.org/standard/50060.html", color = Color(0xFF818CF8), fontSize = 12.sp)
