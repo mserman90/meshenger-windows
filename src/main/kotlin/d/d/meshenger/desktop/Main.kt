@@ -156,7 +156,7 @@ fun DisasterBeaconTabScreen() {
     var isRubbleListening by remember { mutableStateOf(RubbleAudioProcessor.isListeningActive()) }
     var gainMultiplier by remember { mutableStateOf(RubbleAudioProcessor.gainMultiplier.toInt()) }
     var audioAmplitude by remember { mutableStateOf(0) }
-    var peakDetected by remember { mutableStateOf(false) }
+    var isPeakWarningDetected by remember { mutableStateOf(false) }
 
     var activeSignals by remember { mutableStateOf(listOf<DisasterSignal>()) }
 
@@ -165,7 +165,7 @@ fun DisasterBeaconTabScreen() {
         RubbleAudioProcessor.setOnAudioAmplitudeListener(object : RubbleAudioProcessor.OnAudioAmplitudeListener {
             override fun onAmplitudeChanged(amplitudePercentage: Int, peakDetected: Boolean) {
                 audioAmplitude = amplitudePercentage
-                this@DisasterBeaconTabScreen.peakDetected = peakDetected
+                isPeakWarningDetected = peakDetected
             }
         })
         onDispose { RubbleAudioProcessor.setOnAudioAmplitudeListener(null) }
@@ -377,12 +377,12 @@ fun DisasterBeaconTabScreen() {
                                 LinearProgressIndicator(
                                     progress = { audioAmplitude / 100f },
                                     modifier = Modifier.fillMaxWidth().height(10.dp),
-                                    color = if (peakDetected) Color(0xFFEF4444) else Color(0xFF818CF8),
+                                    color = if (isPeakWarningDetected) Color(0xFFEF4444) else Color(0xFF818CF8),
                                     trackColor = Color(0xFF312E81)
                                 )
                                 Text(
-                                    text = if (peakDetected) "⚠️ YÜKSEK SES / TIKIRTI ALGILANDI! (PEAK DETECTED)" else "Ortam Dinleniyor... / Monitoring Audio...",
-                                    color = if (peakDetected) Color(0xFFEF4444) else Color(0xFF818CF8),
+                                    text = if (isPeakWarningDetected) "⚠️ YÜKSEK SES / TIKIRTI ALGILANDI! (PEAK DETECTED)" else "Ortam Dinleniyor... / Monitoring Audio...",
+                                    color = if (isPeakWarningDetected) Color(0xFFEF4444) else Color(0xFF818CF8),
                                     fontSize = 11.sp,
                                     fontWeight = FontWeight.Bold
                                 )
