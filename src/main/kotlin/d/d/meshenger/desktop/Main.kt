@@ -37,7 +37,7 @@ fun main() = application {
 
     Window(
         onCloseRequest = ::exitApplication,
-        title = "Meshenger Windows - P2P Emergency Network & Disaster Beacon (ISO 22324)",
+        title = "MeshengerTR Windows - P2P Emergency Network & Disaster Beacon (ISO 22324)",
         state = windowState
     ) {
         MeshengerAppTheme {
@@ -131,7 +131,7 @@ fun HeaderBar() {
     ) {
         Column {
             Text(
-                text = "🚨 MESHENGER WINDOWS - ACİL DURUM & AFET KİPİ",
+                text = "🚨 MESHENGERTR WINDOWS - ACİL DURUM & AFET KİPİ",
                 color = Color.White,
                 fontSize = 18.sp,
                 fontWeight = FontWeight.Bold

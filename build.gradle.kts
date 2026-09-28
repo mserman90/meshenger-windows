@@ -41,14 +41,14 @@ compose.desktop {
         mainClass = "d.d.meshenger.desktop.MainKt"
         nativeDistributions {
             targetFormats(org.jetbrains.compose.desktop.application.dsl.TargetFormat.Msi, org.jetbrains.compose.desktop.application.dsl.TargetFormat.Exe)
-            packageName = "MeshengerWindows"
+            packageName = "MeshengerTR-Windows"
             packageVersion = "4.5.0"
-            description = "Meshenger P2P Emergency Network & Disaster Beacon for Windows (ISO 22324 Compliant)"
-            copyright = "© 2026 Meshenger Contributors. All rights reserved."
-            vendor = "Meshenger Contributors"
+            description = "MeshengerTR P2P Emergency Network & Disaster Beacon for Windows (ISO 22324 Compliant)"
+            copyright = "© 2026 MeshengerTR Contributors. All rights reserved."
+            vendor = "MeshengerTR Contributors"
             
             windows {
-                menuGroup = "Meshenger"
+                menuGroup = "MeshengerTR"
                 upgradeUuid = "39eecc3f-e8f1-440e-852c-494e3b3845a9"
             }
         }

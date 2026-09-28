@@ -1,6 +1,6 @@
-# Meshenger Windows - P2P Emergency Network & Disaster Beacon
+# MeshengerTR Windows - P2P Emergency Network & Disaster Beacon
 
-**Meshenger Windows**, hücresel şebekeler ve internet altyapısı çöktüğünde bile yerel Wi-Fi, Ethernet ve Mesh ağları üzerinden kesintisiz P2P acil durum iletişimi sağlayan **Compose Multiplatform (Kotlin Desktop)** uygulamasıdır.
+**MeshengerTR Windows**, hücresel şebekeler ve internet altyapısı çöktüğünde bile yerel Wi-Fi, Ethernet ve Mesh ağları üzerinden kesintisiz P2P acil durum iletişimi sağlayan **Compose Multiplatform (Kotlin Desktop)** uygulamasıdır.
 
 Bu uygulama **ISO 22324 Uluslararası Akıllı Acil Durum Standartları** ile tam uyumlu olup Android sürümü (`meshenger-android`) ile çift yönlü doğrudan iletişim kurabilir.
 
