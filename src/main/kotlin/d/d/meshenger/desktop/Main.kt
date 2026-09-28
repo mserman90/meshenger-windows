@@ -600,5 +600,13 @@ fun AboutTabScreen() {
                 Text("🙏 TEŞEKKÜR: Tüm arama-kurtarma ekiplerine, açık kaynak geliştiricilerine ve insanlık namına emek veren herkese sonsuz teşekkürlerimizle.", color = Color(0xFF4ADE80), fontWeight = FontWeight.Bold, fontSize = 12.sp)
             }
         }
+
+        Card(colors = CardDefaults.cardColors(containerColor = Color(0xFF450A0A))) {
+            Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text("⚖️ YASAL BİLDİRİM, BETA TEST VE SORUMLULUK REDDİ / LEGAL DISCLAIMER", color = Color(0xFFEF4444), fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                Text("⚠️ BETA / TEST AŞAMASI UYARISI: Bu uygulama deneysel (Beta / Test) aşamasında bir yazılımdır. Resmi acil durum hizmetlerinin (AFAD, 112, 911 vb.) veya profesyonel arama-kurtarma teçhizatlarının yerini tutmaz.", color = Color(0xFFFCA5A5), fontSize = 12.sp)
+                Text("⚖️ YASAL SORUMLULUK REDDİ: Yazılım 'olduğu gibi' (AS IS) sunulmaktadır. Geliştiriciler; sinyal kesintisi, yanlış ses tespiti, veri kaybı veya kullanım sırasında oluşabilecek doğrudan/dolaylı hiçbir can/mal kaybından veya zarardan yasal olarak sorumlu tutulamaz. Kullanım riski tamamen kullanıcıya aittir.", color = Color(0xFFFECACA), fontSize = 11.sp)
+            }
+        }
     }
 }

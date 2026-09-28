@@ -47,5 +47,17 @@ Paketler `build/compose/binaries/main/msi/` ve `build/compose/binaries/main/exe/
 
 ---
 
+## ⚖️ Yasal Bildirim, Beta Test ve Sorumluluk Reddi (Legal Disclaimer)
+
+> [!CAUTION]
+> **⚠️ BETA / TEST AŞAMASI UYARISI:**
+> Bu uygulama henüz deneysel (Beta / Test) aşamasında açık kaynaklı bir yazılımdır. Arama-kurtarma ve acil durum senaryolarında ek/yardımcı bir araç olarak tasarlanmış olup, resmi acil durum kanallarının (AFAD, 112 Acil Çağrı vb.) veya profesyonel arama-kurtarma teçhizatlarının yerini asla alamaz.
+
+> [!WARNING]
+> **⚖️ YASAL SORUMLULUK REDDİ (DISCLAIMER OF LIABILITY):**
+> Yazılım "olduğu gibi" (AS IS) ve "mevcut haliyle" herhangi bir açık veya zımnı garanti verilmeksizin sunulmaktadır. Geliştiriciler, katkıda bulunanlar ve lisansörler; uygulamanın kesintisiz çalışması, sinyal iletim garantisi, enkaz altı ses tespiti doğruluğu, veri kaybı, cihaz hasarı veya kullanım sırasında oluşabilecek doğrudan/dolaylı hiçbir can ve mal kaybından veya zarardan yasal olarak sorumlu tutulamaz. Kullanıcı uygulamayı tüm riskleri kabul ederek kendi sorumluluğunda çalıştırır.
+
+---
+
 ## 📄 Lisans
 GNU General Public License v3.0 (GPL-3.0)
