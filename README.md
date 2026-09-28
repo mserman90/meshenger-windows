@@ -17,10 +17,11 @@ Bu uygulama **ISO 22324 Uluslararası Akıllı Acil Durum Standartları** ile ta
   - Medikal not ve konum bilgisi ekleme desteği.
 
 - **🎙️ Enkaz Dinleme & Ses Yükseltici (Rubble Audio Processor)**:
-  - 16kHz PCM mikrofon yakalama ve canlı hoparlör aktarımı.
-  - **300Hz Yüksek Geçiren Filtre (High-Pass Filter)**: Düşük frekanslı uğultu ve gürültüyü keser.
-  - **Dinamik Kazanç Yükseltme**: `3x`, `5x`, `10x (MAX)` kazanç artırımı (Yumuşak Kırpma / Soft Clipping Korumalı).
-  - Canlı RMS genlik göstergesi ve %65 üzeri seslerde tepe uyarısı (`⚠️ YÜKSEK SES / TIKIRTI ALGILANDI!`).
+  - **Kaynak & Algoritma:** Ozan Sarıer'in açık kaynak [enkazdinlemeuygulamasi](https://github.com/ozansarier/enkazdinlemeuygulamasi) projesinin ses işleme algoritması temel alınarak entegre edilmiştir.
+  - **Canlı Ses Akışı:** 16kHz PCM mikrofon yakalama ve hoparlör aktarımı.
+  - **300Hz Yüksek Geçiren Filtre (High-Pass Filter):** 300Hz altı jeneratör ve rüzgar uğultularını keser; insan sesi ve enkaz tıkırtılarına odaklanır.
+  - **Dinamik Kazanç Yükseltme:** `3x`, `5x`, `10x (MAX)` amplifikasyon artırımı (Yumuşak Kırpma / Soft Clipping Korumalı).
+  - **Canlı Genlik & Tepe Uyarısı:** RMS hesaplamasıyla çalışan canlı ses çubuğu ve %65 üzeri ani ses uyarısı (`⚠️ YÜKSEK SES / TIKIRTI ALGILANDI!`).
 
 - **🔊 Akustik Siren & 🔦 SOS Strobe Flaş**:
   - Arama kurtarma ekiplerinin yön tayinini kolaylaştırmak için **3.5 kHz akustik düdük sesi**.
